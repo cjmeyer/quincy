@@ -1,5 +1,5 @@
-DEBUG = True
-TESTING = False
+DEBUG = False
+TESTING = True
 
 MONGODB_HOST = 'localhost'
 MONGODB_PORT = 27017
