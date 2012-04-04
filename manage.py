@@ -1,4 +1,4 @@
-#! /usr/bin/env python.py
+#! /usr/bin/env python
 
 from flaskext.script import Manager, Server, Shell
 from quincy import create_app

@@ -8,7 +8,7 @@ def create_app(config_name):
     app.config.from_pyfile('quincy.cfg', silent=True)
     app.config.from_envvar('QUINCY_SETTINGS', silent=True)
 
-    from quincy.controllers.projects import projects
+    from quincy.views.projects import projects
 
     app.register_blueprint(projects, url_prefix='/projects')
 
